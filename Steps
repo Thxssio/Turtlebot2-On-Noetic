@@ -1,0 +1,13 @@
+Installing the Turtlebot2 package on ROS Noetic(Ubuntu 20.04).
+steps:
+mkdir -p ~/turtlebot_ws/src
+- catkin_make
+- cloning command in the first comment
+- catkin_make
+-  source the workspace command in the first comment  
+- source ~/.bashrc
+- sudo apt-get install ros-noetic-move-base*
+- sudo apt-get install ros-noetic-map-server*
+- sudo apt-get install ros-noetic-amcl*
+- sudo apt-get install ros-noetic-navigation*
+- roslaunch turtlebot_stage turtlebot_in_stage.launch
