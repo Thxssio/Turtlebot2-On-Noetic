@@ -32,4 +32,9 @@ sudo apt-get install ros-noetic-ecl-streams -y
 # necessary for build and gazebo
 sudo apt-get install ros-noetic-depthimage-to-laserscan -y
 sudo apt-get install ros-noetic-joy -y
-sudo apt-get install ros-noetic-yocs-velocity-smoother -y
+
+sudo apt install ros-noetic-ros-industrial-cmake-boilerplate
+sudo apt install ros-noetic-opw-kinematics
+sudo apt install ros-noetic-moveit-opw-kinematics-plugin
+
+#!sudo apt-get install ros-noetic-yocs-velocity-smoother -y
